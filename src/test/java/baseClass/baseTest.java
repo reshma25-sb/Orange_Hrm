@@ -23,11 +23,11 @@ public class baseTest {
     }
     
    
-//
-//    @AfterMethod
-//    public void tearDown() {
-//        if (driver != null) {
-//            driver.quit();   // ✅ prevents null error
-//        }
-//    }
+
+    @AfterMethod
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();   // ✅ prevents null error
+        }
+    }
 }
